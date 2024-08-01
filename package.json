@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/oi89/typescript-project-81/issues"
   },
-  "homepage": "https://github.com/oi89/typescript-project-81#readme"
+  "homepage": "https://github.com/oi89/typescript-project-81#readme",
+  "dependencies": {
+    "typescript": "^5.5.4"
+  }
 }
