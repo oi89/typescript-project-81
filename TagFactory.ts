@@ -13,8 +13,8 @@ export class TagFactory {
         const attributeText = this.text ?? '';
 
         if (this.attributes) {
-            let attributesArr = [];
-            for (let [attribute, value] of Object.entries(this.attributes)) {
+            const attributesArr = [];
+            for (const [attribute, value] of Object.entries(this.attributes)) {
                 attributesArr.push(` ${attribute}="${value}"`);
             }
             attributesBlock = attributesArr.join('');
